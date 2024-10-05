@@ -124,7 +124,7 @@ export const getMatch =
         config.loadPage
       )
     )
-
+    console.log("HII!!!");
     const title = $('.timeAndEvent .text').trimText()
     const date = $('.timeAndEvent .date').numFromAttr('data-unix')
     const format = getFormat($)
